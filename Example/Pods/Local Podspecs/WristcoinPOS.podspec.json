@@ -1,0 +1,27 @@
+{
+  "name": "WristcoinPOS",
+  "version": "0.1.0",
+  "summary": "A short description of WristcoinPOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dshalaby/WristcoinPOS",
+  "license": {
+    "type": "Apache 2.0",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dshalaby": "dave@mywristcoin.com"
+  },
+  "source": {
+    "git": "https://github.com/dshalaby/WristcoinPOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "WristcoinPOS/Classes/**/*",
+  "dependencies": {
+    "TCMPTappy": [
+
+    ]
+  }
+}

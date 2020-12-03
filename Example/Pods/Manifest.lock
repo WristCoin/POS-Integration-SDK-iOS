@@ -1,0 +1,31 @@
+PODS:
+  - Nimble (7.3.4)
+  - Quick (1.2.0)
+  - TCMPTappy (1.2.0)
+  - WristcoinPOS (0.1.0):
+    - TCMPTappy
+
+DEPENDENCIES:
+  - Nimble (~> 7.0)
+  - Quick (~> 1.2.0)
+  - WristcoinPOS (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
+    - TCMPTappy
+
+EXTERNAL SOURCES:
+  WristcoinPOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  TCMPTappy: 7a0b57a3e25f2fef5ad48f56998d51743a27afbf
+  WristcoinPOS: 9c4a0470f6e557608a9ef63f7df74ba7e74added
+
+PODFILE CHECKSUM: 00ee040d7c56c022dae233d5e1c643644541139d
+
+COCOAPODS: 1.10.0

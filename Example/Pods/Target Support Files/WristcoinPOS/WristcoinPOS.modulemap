@@ -1,0 +1,6 @@
+framework module WristcoinPOS {
+  umbrella header "WristcoinPOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

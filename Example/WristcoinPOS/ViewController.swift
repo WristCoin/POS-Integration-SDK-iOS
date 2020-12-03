@@ -3,7 +3,7 @@
 //  WristcoinPOS
 //
 //  Created by dshalaby on 11/28/2020.
-//  Copyright (c) 2020 dshalaby. All rights reserved.
+//  Copyright (c) 2020 Wristcoin Inc. All rights reserved.
 //
 
 import UIKit
