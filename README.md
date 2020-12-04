@@ -1,7 +1,8 @@
 # WristcoinPOS Integration SDK for iOS
 
-[![License](https://img.shields.io/cocoapods/l/TCMPTappy.svg?style=flat)](https://github.com/WristCoin/POS-Integration-SDK-iOS/blob/master/LICENSE)
-[![Platform](https://img.shields.io/cocoapods/p/TCMPTappy.svg?style=flat)](https://cocoapods.org/pods/TCMPTappy)
+[![Version](https://img.shields.io/cocoapods/v/WristcoinPOS.svg?style=flat)](https://cocoapods.org/pods/WristcoinPOS)
+[![License](https://img.shields.io/cocoapods/l/WristcoinPOS.svg?style=flat)](https://github.com/WristCoin/POS-Integration-SDK-iOS/blob/master/LICENSE)
+[![Platform](https://img.shields.io/cocoapods/p/WristcoinPOS.svg?style=flat)](https://cocoapods.org/pods/WristcoinPOS)
 ![Xcode](https://img.shields.io/badge/Xcode-12.2-brightgreen.svg)
 ![Swift](https://img.shields.io/badge/Swift-4.2-brightgreen.svg)
 
@@ -9,9 +10,9 @@
 
 This project is an SDK to allow POS vendors to integrate WristCoin contactless cashless payments and accept WristCoin wallets as a form of payment. 
 
-A prerequisite to using this SDK is having the WristCoin external Bluetooth terminal that accepts NFC payments using WristCoin wristbands/cards/fobs.   The terminal abastracts all of the NFC details away from your POS application.  Detailed specifications about the Bluetooth connection handling, communication protocol, and requirements are outside the scope of this SDK.  The required dependency to connect and communicate with the terminal is already included in WristcoinPOS Cocoapod.  If interested, please refer [here](https://github.com/TapTrack/TCMPTappy-iOS) for details regarding the Bluetooth communications such as scanning for terminals, connecting, sending and receiving data. 
+A prerequisite to using this SDK is having the WristCoin external Bluetooth terminal that accepts NFC payments using WristCoin wristbands/cards/fobs.   The terminal abstracts all of the NFC details away from your POS application.  Detailed specifications about the Bluetooth connection handling, communication protocol, and requirements are outside the scope of this SDK.  The required dependency to connect and communicate with the terminal is already included in WristcoinPOS Cocoapod.  If interested, please refer [here](https://github.com/TapTrack/TCMPTappy-iOS) for details regarding the Bluetooth communications such as scanning for terminals, connecting, sending and receiving data. 
 
-We are currently in a closed beta program for our POS integration program.  To enroll in the closed beta please email info@mywristcoin.com to obtain your development terminal. 
+We are currently in a closed beta program for our POS integration program.  To enroll in the closed beta please email [info@mywristcoin.com](mailto:info@mywristcoin.com) to obtain your development terminal. 
 
 ## Features
 
@@ -58,7 +59,7 @@ or if you already have the 16 byte `UInt8` array:
 
 `try! setEventIdCmd = SetEventIdCommand(eventId: [0xA6,0x49,0xE0,0xF4,0x0B,0xC0,0x11,0xEA,0x84,0xD8,0xAF,0xBA,0xB2,0xCF,0xCB,0x2A])`
 
-Then send the command to the terminal as shown above.   It's recommended you handle exceptions that may be thrown, the  examples provided are intended for explanatory purposes only and hence are kept to a single line of code, but in practice handling 
+Then send the command to the terminal as shown above.   It's recommended you handle exceptions that may be thrown, the  examples provided are intended for explanatory purposes only and hence are kept to a single line of code for brevity however in practice handling these exceptions is needed. 
 
 ### Debiting Wristband Credit - Short Response
 

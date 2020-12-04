@@ -9,26 +9,21 @@
 Pod::Spec.new do |s|
   s.name             = 'WristcoinPOS'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of WristcoinPOS.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'Integrate WristCoin Cashless Payments into your Point of Sale application'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  This pod is an SDK to allow POS vendors to integrate WristCoin contactless cashless payments and accept WristCoin wallets as a form of payment.
                        DESC
 
-  s.homepage         = 'https://github.com/dshalaby/WristcoinPOS'
+  s.homepage         = 'https://github.com/WristCoin/POS-Integration-SDK-iOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'Apache 2.0', :file => 'LICENSE' }
   s.author           = { 'dshalaby' => 'dave@mywristcoin.com' }
-  s.source           = { :git => 'https://github.com/dshalaby/WristcoinPOS.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/WristCoin/POS-Integration-SDK-iOS.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/mywristcoin'
 
   s.ios.deployment_target = '9.0'
+  s.swift_versions = '4.2'
 
   s.source_files = 'WristcoinPOS/Classes/**/*'
   
