@@ -39,7 +39,7 @@ Once connected to a WristCoin Bluetooth NFC terminal, you must set a response li
 
 where `yourWristcoinTerminal` is of type `TappyBle`  (provided by the `TCMPTappy` module).
 
-The function `yourWristcoinTerminal` must adopt the following method signature:
+The function `myWCTerminalResponseListener` must adopt the following method signature:
 
 `func myWCTerminalResponseListener(tcmpResponse : TCMPMessage)`
 
