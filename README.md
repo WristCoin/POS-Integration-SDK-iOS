@@ -101,7 +101,7 @@ This will use the terminal's default timeout of about eight seconds or so.  To s
 
 This command is handy to know what version of terminal firmware you have - especially useful as the beta program continues as new features are added:
 
-`let getTerminalFirmwareVerCmd : GetFirmwareVersionCommand = GetFirmwareVersionCommand()`
+`let getTerminalFirmwareVerCmd : GetWristcoinPOSCommandFamilyVersionCommand = GetWristcoinPOSCommandFamilyVersionCommand()`
 
 Then send the command to the terminal as shown above. 
 
