@@ -113,6 +113,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 Coming soon: When returning wristband account/status information, the terminals use a TLV specification to encode the data.  Star this repo to watch for updates as more documentation is released in the coming weeks.
 
+## Raw Command/Response Specification
+
+Comming soon: for those that may be interested in integrating the WristCoin Bluetooth terminal into a platform withoug direct SDK support, this specification will inform the development of the terminal communication details that this SDK abstracts.
+
 ## Requirements
 
 * Minimum iOS version for deployment is 12.0

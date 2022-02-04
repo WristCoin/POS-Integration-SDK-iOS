@@ -1,10 +1,11 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/TCMPTappy" "${PODS_CONFIGURATION_BUILD_DIR}/WristcoinPOS"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/SwiftTLV" "${PODS_CONFIGURATION_BUILD_DIR}/TCMPTappy" "${PODS_CONFIGURATION_BUILD_DIR}/WristcoinPOS"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/TCMPTappy/TCMPTappy.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/WristcoinPOS/WristcoinPOS.framework/Headers"
-LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -framework "TCMPTappy" -framework "WristcoinPOS"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/SwiftTLV/SwiftTLV.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/TCMPTappy/TCMPTappy.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/WristcoinPOS/WristcoinPOS.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) /usr/lib/swift '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${DT_TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}" /usr/lib/swift
+OTHER_LDFLAGS = $(inherited) -framework "SwiftTLV" -framework "TCMPTappy" -framework "WristcoinPOS"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
